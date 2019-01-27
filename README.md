@@ -6,7 +6,7 @@
 Toolchain Espressif:
 * https://github.com/espressif/binutils-esp32ulp/releases
 * Download
-* Run the "AS" compiler 
+* Run the "esp32ulp-elf-as.exe" compiler 
 
 ## LLVM samples
 * RISC-V Sample: https://github.com/llvm-mirror/llvm/tree/master/lib/Target/RISCV
