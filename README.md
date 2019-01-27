@@ -19,4 +19,4 @@ Toolchain Espressif:
 
 | Func | OpCode |  Addr-Mode |
 |----|----|----|
-| 0: ADD ("+") <BR> 2: SUB ("-") <BR> 4: AND ("&&")<BR>6: OR ("&#124;&#124;")<BR>8: MOVE<BR>A: LSH ("<<")<BR>C: RSH (">>") |1: REG_WR<BR>2: REG_RD<BR>3: I2C<BR>4: NOP<BR>6: STORE<BR>7: ALU<BR>8: JUMP | 0: CREG2<br>1: PREG read<br>2: CREG+IMM<br>3: PCRel?<br>3: PREG write<br>4: PC?<br>5: COND<br>8: I2C write
+| 0: ADD ("+") <BR> 2: SUB ("-") <BR> 4: AND ("&&")<BR>6: OR ("&#124;&#124;")<BR>8: MOVE<BR>A: LSH ("<<")<BR>C: RSH (">>") |1: PREG_WR<BR>2: PREG_RD<BR>3: I2C<BR>4: NOP<BR>6: STORE<BR>7: ALU<BR>8: JUMP | 0: CREG2<br>1: PREG read<br>2: CREG+IMM<br>3: PCRel?<br>3: PREG write<br>4: PC?<br>5: COND<br>8: I2C write
