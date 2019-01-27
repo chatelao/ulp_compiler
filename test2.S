@@ -7,16 +7,16 @@ array:  .long 3
         NOP
 
         // There are only 4 registers
-        ADD R0, R2, R3        //R1 = R2 + R3
+        ADD R0, R1, R2        //R0 = R1 + R2
         ADD R1, R2, R3        //R1 = R2 + R3
 
         ADD R1, R2, 0xABCD    //R1 = R2 + 0xABCD
 
-        SUB R1, R2, R3        //R1 = R2 - R3
-        SUB R1, R2, 0xABCD    //R1 = R2 - 0xABCD
+        SUB R3, R0, R1        //R3 = R0 - R1
+        SUB R3, R0, 0xABCD    //R3 = R0 - 0xABCD
 
-        AND R1, R2, R3        //R1 = R2 & R3
-        AND R1, R2, 0xABCD    //R1 = R2 & 0xABCD
+        AND R0, R2, R3        //R1 = R2 & R3
+        AND R3, R2, 0xABCD    //R1 = R2 & 0xABCD
 
         OR R1, R2, R3         //R1 = R2 | R3
         OR R1, R2, 0xABCD     //R1 = R2 | 0xABCD
