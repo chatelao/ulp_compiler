@@ -9,7 +9,9 @@ Toolchain Espressif:
 * Run the "esp32ulp-elf-as.exe" compiler 
 
 ## LLVM samples
+* LLVM Backend integration (video): https://www.youtube.com/watch?v=AFaIP-dF-RA&t=1686s
 * RISC-V Sample: https://github.com/llvm-mirror/llvm/tree/master/lib/Target/RISCV
+
 
 ## OpCode ISA
 
